@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server-svc
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      username: welljr
+      password: <9LLW342'A
